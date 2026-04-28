@@ -1,4 +1,5 @@
-name: Cloudflare Pages Deployment
+# Cloudflare Pages 전용 배포 설정
+name: Deploy to Cloudflare Pages
 
 on:
   push:
@@ -11,6 +12,8 @@ jobs:
       contents: read
       deployments: write
     name: Deploy to Cloudflare Pages
+    # Secret이 설정되어 있을 때만 실행되도록 조건 추가
+    if: "${{ secrets.CLOUDFLARE_API_TOKEN != '' }}"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
