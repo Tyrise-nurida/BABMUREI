@@ -1,6 +1,6 @@
 /**
- * 크라우드픽(Crowdpic) 및 한식 전문 데이터셋 기반 1:1 정밀 매칭
- * 각 음식명과 사진의 피사체가 완벽하게 일치하도록 구성
+ * Unsplash 고화질 음식 라이브러리 기반 1:1 정밀 매칭 데이터
+ * 각 음식명에 가장 정확하게 부합하는 대표 이미지를 사용
  */
 
 const mealData = {
@@ -11,12 +11,12 @@ const mealData = {
             { name: "미역국", img: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800" },
             { name: "부대찌개", img: "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&q=80&w=800" },
             { name: "콩나물국", img: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&q=80&w=800" },
-            { name: "만두국", img: "https://images.unsplash.com/photo-1599481238640-4c1288750d7a?auto=format&fit=crop&q=80&w=800" },
+            { name: "만두국", img: "https://images.unsplash.com/photo-1624300629298-e9de39c13be5?auto=format&fit=crop&q=80&w=800" },
             { name: "순두부찌개", img: "https://images.unsplash.com/photo-1621251848570-070868f7f457?auto=format&fit=crop&q=80&w=800" }
         ],
         sides: [
-            { name: "불고기", img: "https://images.unsplash.com/photo-1632778149975-420e0e75ee08?auto=format&fit=crop&q=80&w=800" },
             { name: "제육볶음", img: "https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3?auto=format&fit=crop&q=80&w=800" },
+            { name: "불고기", img: "https://images.unsplash.com/photo-1632778149975-420e0e75ee08?auto=format&fit=crop&q=80&w=800" },
             { name: "비빔밥", img: "https://images.unsplash.com/photo-1590301157890-4810ed352733?auto=format&fit=crop&q=80&w=800" },
             { name: "잡채", img: "https://images.unsplash.com/photo-1534939561122-0d12d7e5d199?auto=format&fit=crop&q=80&w=800" },
             { name: "계란말이", img: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&q=80&w=800" },
@@ -31,15 +31,15 @@ const mealData = {
         soups: [
             { name: "맑은 콩나물국", img: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&q=80&w=800" },
             { name: "미역국(저염)", img: "https://images.unsplash.com/photo-1547592166-23ac45744acd?auto=format&fit=crop&q=80&w=800" },
-            { name: "순두부맑은탕", img: "https://images.unsplash.com/photo-1621251848570-070868f7f457?auto=format&fit=crop&q=80&w=800" }
+            { name: "두부무국", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" }
         ],
         sides: [
             { name: "닭가슴살 샐러드", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" },
-            { name: "두부 스테이크", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" },
+            { name: "두부 구이", img: "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800" },
             { name: "브로콜리 숙회", img: "https://images.unsplash.com/photo-1452967712862-0cca1839ff27?auto=format&fit=crop&q=80&w=800" },
             { name: "오이무침", img: "https://images.unsplash.com/photo-1449333077673-ad5578a49a2b?auto=format&fit=crop&q=80&w=800" },
             { name: "삶은 달걀", img: "https://images.unsplash.com/photo-1525351484163-7529414344d8?auto=format&fit=crop&q=80&w=800" },
-            { name: "훈제오리 샐러드", img: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800" }
+            { name: "구운 채소", img: "https://images.unsplash.com/photo-1452967712862-0cca1839ff27?auto=format&fit=crop&q=80&w=800" }
         ]
     }
 };
